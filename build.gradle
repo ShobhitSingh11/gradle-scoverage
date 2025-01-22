@@ -90,9 +90,9 @@ task crossScalaVersionTest(type: Test) {
     mustRunAfter test
 }
 
-tasks.withType(Test) {
-    ignoreFailures = true
-}
+// tasks.withType(Test) {
+//     ignoreFailures = true
+// }
 
 check.dependsOn crossScalaVersionTest
 
