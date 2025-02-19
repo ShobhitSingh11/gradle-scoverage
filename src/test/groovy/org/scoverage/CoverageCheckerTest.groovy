@@ -71,7 +71,7 @@ class CoverageCheckerTest {
         checker.checkLineCoverage(reportDir, CoverageType.Statement, 0.3)
     }
 
-    // Branch coverage
+    // Branch coverage hhh
 
     @Test
     void failsWhenBranchRateIsBelowTarget() {
