@@ -51,7 +51,7 @@ class CoverageCheckerTest {
         checker.checkLineCoverage(reportDir, CoverageType.Line, 0.6)
     }
 
-    // Statement coverageerjerfr33rf3ee
+    // Statement coverage
 
     @Test
     void failsWhenStatementRateIsBelowTarget() {
