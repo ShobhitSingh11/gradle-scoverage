@@ -102,7 +102,7 @@ class CoverageCheckerTest {
 }
 
 /**
- * Copied from the Internet, just to check if we have correct exception thrown.   
+ * Copied from the Internet, just to check if we have correct exception thrown.    
  */
 class CauseMatcher extends TypeSafeMatcher<GradleException> {
 
