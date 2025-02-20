@@ -24,7 +24,7 @@ class CoverageCheckerTest {
     @Rule
     public TemporaryFolder tempDir = new TemporaryFolder()
 
-    // error when report file is not there r
+    // error when report file is not there rf
     @Test
     void failsWhenReportFileIsNotFound() {
         assertFailure(CoverageChecker.fileNotFoundErrorMsg(CoverageType.Line), {
