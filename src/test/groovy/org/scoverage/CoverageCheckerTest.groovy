@@ -32,7 +32,7 @@ class CoverageCheckerTest {
         })
     }
 
-    // line coveragedcderefredefed
+    // line coveragedcderefredefede
 
     @Test
     void failsWhenLineRateIsBelowTarget() {
