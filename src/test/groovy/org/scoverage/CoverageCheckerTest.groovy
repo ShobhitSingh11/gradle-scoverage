@@ -24,8 +24,7 @@ class CoverageCheckerTest {
     @Rule
     public TemporaryFolder tempDir = new TemporaryFolder()
 
-    // error when report file is not there
-
+    // error when report file is not there  
     @Test
     void failsWhenReportFileIsNotFound() {
         assertFailure(CoverageChecker.fileNotFoundErrorMsg(CoverageType.Line), {
@@ -33,7 +32,7 @@ class CoverageCheckerTest {
         })
     }
 
-    // line coverage
+    // line coverage    
 
     @Test
     void failsWhenLineRateIsBelowTarget() {
@@ -71,7 +70,7 @@ class CoverageCheckerTest {
         checker.checkLineCoverage(reportDir, CoverageType.Statement, 0.3)
     }
 
-    // Branch coverage
+    // Branch coverage hj
 
     @Test
     void failsWhenBranchRateIsBelowTarget() {
@@ -103,7 +102,7 @@ class CoverageCheckerTest {
 }
 
 /**
- * Copied from the Internet, just to check if we have correct exception thrown.
+ * Copied from the Internet, just to check if we have correct exception thrown.    
  */
 class CauseMatcher extends TypeSafeMatcher<GradleException> {
 
