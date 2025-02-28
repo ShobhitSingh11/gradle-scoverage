@@ -20,7 +20,7 @@ import java.util.Arrays;
 import java.util.Set;
 
 /**
- * Util for generating and saving coverage files.
+ * Util for generating and saving coverage files. 
  * Copied from sbt-scoverage and converted to Java to avoid dependency to Scala.
  */
 public class ScoverageWriter {
