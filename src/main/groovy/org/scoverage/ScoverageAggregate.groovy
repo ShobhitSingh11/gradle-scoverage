@@ -17,7 +17,7 @@ import static org.gradle.api.tasks.PathSensitivity.RELATIVE
 class ScoverageAggregate extends DefaultTask {
 
     @Nested
-    ScoverageRunner runner
+    ScoverageRunner runner   
 
     @InputFiles
     @PathSensitive(RELATIVE)
